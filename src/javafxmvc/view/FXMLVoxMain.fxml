@@ -7,14 +7,14 @@
 <?import javafx.scene.layout.VBox?>
 
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxmvc.controller.FXMLVoxMainController">
    <children>
       <MenuBar>
         <menus>
           <Menu mnemonicParsing="false" text="Cadastro">
             <items>
               <MenuItem mnemonicParsing="false" text="Categoria" />
-                  <MenuItem fx:id="MenuItemCadastrosClientes" mnemonicParsing="false" text="Cliente" />
+                  <MenuItem fx:id="MenuItemCadastrosClientes" mnemonicParsing="false" onAction="#handleMenuItemCadastrosClientes" text="Cliente" />
                   <MenuItem mnemonicParsing="false" text="Produtos" />
             </items>
           </Menu>
